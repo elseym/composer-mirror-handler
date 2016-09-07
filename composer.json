@@ -21,5 +21,10 @@
     "require-dev": {
         "php": ">=5.3.3",
         "composer/composer": "^1.2"
+    },
+    "extra": {
+        "class": [
+            "Elseym\\MirrorHandler\\Mirror"
+        ]
     }
 }
