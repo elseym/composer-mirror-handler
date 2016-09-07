@@ -1,0 +1,25 @@
+{
+    "name": "elseym/mirror-handler",
+    "description": "Manages aliased copies of your composer dependencies",
+    "type": "composer-plugin",
+    "license": "WTFPL",
+    "homepage": "https://github.com/elseym/composer-mirror-handler",
+    "authors": [
+        {
+          "name": "elseym",
+          "email": "elseym@me.com"
+        }
+    ],
+    "require": {
+        "symfony/filesystem": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Elseym\\MirrorHandler\\": "src/"
+        }
+    },
+    "require-dev": {
+        "php": ">=5.3.3",
+        "composer/composer": "^1.2"
+    }
+}
